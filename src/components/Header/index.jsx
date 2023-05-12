@@ -1,6 +1,6 @@
 import { Container } from './styles'
 
-import { BiCart, BiHeart, BiPlus } from 'react-icons/bi'
+import { BiCart, BiHeart } from 'react-icons/bi'
 import Logo from '../../assets/logo.png'
 
 import ReboqueIMG from '../../assets/reboque2.png'
@@ -49,7 +49,7 @@ export function Header() {
 
             <div className="menu">
               <ul>
-                <li>Nossos Mods <BiPlus /></li>
+                <li>Nossos Mods</li>
                 <li>Entrar</li>
                 <li>Lista de Desejos</li>
                 <li>Seja um Afiliado</li>

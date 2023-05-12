@@ -6,6 +6,7 @@ export const Container = styled.header`
   position: relative;
   z-index: 100;
   margin-bottom: 2rem;
+  padding: 0 2rem;
   
   > nav {
     max-width: 120rem;
@@ -85,10 +86,13 @@ export const Container = styled.header`
         }
 
         .menu {
-          display: block;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
           width: 100%;
+          height: 25vh;
           position: absolute;
-          top: 15rem;
+          top: 13rem;
           animation: opacity 200ms backwards reverse;
           background: ${({ theme }) => theme.COLORS.BACKGROUND };
 
